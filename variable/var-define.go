@@ -1,3 +1,14 @@
+/*
+* bool                  #布尔
+* string                #字符串
+* (u)int8...int64...    #整数
+* float32,float64       #浮点数
+* complex64,complex128  #复数，用于实现特殊效果 i = √-1；3+4i
+* uintptr               #指针
+* byte                  #8位
+* rune                  #32位，可以理解成char，字符
+ */
+
 /* 定义变量的N种方式 */
 package main
 
