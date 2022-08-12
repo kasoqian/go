@@ -1,13 +1,16 @@
+/* 强制类型转换 */
 package main
 
 import (
 	"fmt"
+	"math"
 )
 
 func main() {
-	var age uint = 20
+	a, b := 3, 4
+	var c int
 
-	name := age.(string)
+	c = int(math.Sqrt(float64(a*a + b*b)))
 
-	fmt.Println(name)
+	fmt.Println(c)
 }
